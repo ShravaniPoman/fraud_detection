@@ -1,0 +1,21 @@
+# Data files (generated — do not commit)
+data/raw_invoices/
+data/synthetic_clean/
+data/synthetic_fraud/
+data/split/
+
+# Keep template folder tracked (manually curated)
+!data/medical_templates/
+
+# Python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Reports / outputs (optional — commit selectively)
+reports/*.png
+reports/*.csv
